@@ -13,6 +13,8 @@ Uses functions library _libqmc_ that is included in different repository
  * _sigmaoffdiag.py_ - puts a constant real off-diagonal part to the self-energy file
  * _changesigma.py_ -  changes inverse temperature or number of Matsubara frequencies in self-energy file
  * _changesgnoff.py_ - switches signs in first or second off-diagonal block in self-energy file, used when searching for broken symmetry phases
+* Input file
+ * _xdmft.in-example_ - example of an input script.
 
 **Required input**
 * _dmft.in_, _hamilt_ (opt. _sigma_) files for dmft
