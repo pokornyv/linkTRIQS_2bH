@@ -1,0 +1,45 @@
+[jobname]
+
+jname             :	2bH_
+
+[mpi]
+
+np                :	8
+
+[params]
+
+offdiag           :	1
+NAtom             :	1
+NBand             :	4
+beta              :	20
+U                 :	4.0
+J                 :	1.0
+band_names        :	Au,Bd,Ad,Bu
+equivalence       :	1,1,1,1
+SymmSigma         :	0
+SymmGreen         :	1
+useHF             :	0
+HF_SelfEnergy     :	0.0,0.0,0.0,0.0
+
+NStart            :	1
+NIter             :	1
+NBins             :	1
+PrevBins          :	0
+
+[ct-hyb]
+
+SpinFlip          :	1
+PairHopping       :	1
+
+NMats             :	400
+NLeg              :	40
+NTau              :	1025
+NWarmup           :	1e5
+NCycles           :	1e6
+LengthCycle       :	100
+measure_Gleg      :	1
+measure_Gtau      :	0
+measure_Gat       :	0
+measure_pert      :	0
+measure_tc        :	0
+
