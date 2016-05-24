@@ -1,8 +1,10 @@
 linkTRIQS_2bH
 =============
 **Description:**
-link between TRIQS CT-HYB code and a DMFT code for 2-band Hubbard model. 
-Uses functions library _libqmc_ that is included in different repository
+Link between TRIQS CT-HYB code and a DMFT code for 2-band Hubbard model with Kanamori interaction (density-density plus spin-flip plus pair hopping) and real off-diagonal hybrdidization functions.
+
+* Uses functions library _libqmc_ that is included in different repository.
+* Optimized for TRIQS 1.2
 
 **Files**
 * Main scripts
@@ -17,6 +19,6 @@ Uses functions library _libqmc_ that is included in different repository
  * _xdmft.in-example_ - example of an input script.
 
 **Required input**
-* _dmft.in_, _hamilt_ (opt. _sigma_) files for dmft
-* _xdmft.in_ file for xdmft
-* _Umm.dat_ file with interaction matrix
+* _dmft.in_, _hamilt_ (opt. _sigma_): input files for dmft
+* _xdmft.in_: input file for xdmft
+* _Umm.dat_: text file with a 4x4 interaction matrix
